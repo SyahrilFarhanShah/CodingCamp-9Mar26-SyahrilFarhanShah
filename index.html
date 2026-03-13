@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Productivity Dashboard</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Greeting Section - Full Width -->
+    <section id="greeting" class="greeting-section">
+      <!-- Greeting component will be rendered here -->
+    </section>
+
+    <!-- Middle Row: Timer and Tasks -->
+    <div class="middle-row">
+      <section id="timer" class="timer-section">
+        <!-- Timer component will be rendered here -->
+      </section>
+      <section id="todos" class="todos-section">
+        <!-- TodoList component will be rendered here -->
+      </section>
+    </div>
+
+    <!-- Bottom Row: Quick Links -->
+    <section id="quick-links" class="quicklinks-section">
+      <!-- QuickLinks component will be rendered here -->
+    </section>
+  </div>
+
+  <div id="notifications" aria-live="polite"></div>
+  
+  <!-- Load all modules in order -->
+  <script src="js/storage.js"></script>
+  <script src="js/theme.js"></script>
+  <script src="js/greeting.js"></script>
+  <script src="js/timer.js"></script>
+  <script src="js/todolist.js"></script>
+  <script src="js/quicklinks.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

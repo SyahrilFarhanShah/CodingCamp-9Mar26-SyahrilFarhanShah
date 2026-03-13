@@ -1,0 +1,47 @@
+# GitHub Pages Configuration
+
+# Site settings
+title: Productivity Dashboard
+description: A minimal productivity dashboard with timer, todos, and quick links
+url: https://yourusername.github.io/productivity-dashboard
+
+# Build settings
+theme: null
+plugins: []
+
+# Exclude files from GitHub Pages
+exclude:
+  - node_modules
+  - .git
+  - .gitignore
+  - package.json
+  - package-lock.json
+  - jest.config.js
+  - .github
+  - .kiro
+  - "*.test.js"
+  - DEPLOYMENT.md
+  - QUICKSTART.md
+
+# Include files
+include:
+  - .github
+
+# Markdown settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# Permalink structure
+permalink: /:title/
+
+# Collections
+collections_dir: .
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: null

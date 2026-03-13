@@ -1,0 +1,32 @@
+{
+  "name": "productivity-dashboard",
+  "version": "1.0.0",
+  "description": "A minimal productivity dashboard with timer, todos, and quick links",
+  "main": "js/app.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "test:watch": "node --experimental-vm-modules node_modules/jest/bin/jest.js --watch",
+    "test:coverage": "node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage"
+  },
+  "keywords": [
+    "productivity",
+    "timer",
+    "pomodoro",
+    "todo",
+    "dashboard"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@jest/globals": "^29.7.0",
+    "fast-check": "^3.13.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/productivity-dashboard.git"
+  },
+  "homepage": "https://github.com/yourusername/productivity-dashboard#readme"
+}
